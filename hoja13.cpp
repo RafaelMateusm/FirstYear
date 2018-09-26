@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(int argc, char const *argv[]) {
+	/*Este programa tiene como finalidad ordenar los números de menor a mayor.*/
 	//Declaramos las variables que son números enteros.
   int a;
   int b;
