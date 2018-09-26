@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-  string medida;
+	//Declaramos las variables.
   string letra = "";
   double numero;
   const double centimetros = 2.54;
@@ -12,7 +12,9 @@ int main(){
   const double gramos = 28.3495;
   const double kilogramos = 0.453592;
   cout << "Introduce un número y después la medida: ";
+
 do{
+	cout << "Introduce un número y la medida: (12 p)";
   cin >> numero;
   if(numero == 0){
     break;
