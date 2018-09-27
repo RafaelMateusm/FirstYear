@@ -3,6 +3,7 @@
 using namespace std;
 
  int main() {
+   //Declaramos las variables.
   double precio;
   int unidades;
   char descuento;
@@ -13,6 +14,8 @@ using namespace std;
   double total;
   double descuentonumerico;
   double IVA;
+
+  //El usuario introduce los valores para cada cosa
   cout << "Precio del producto: ";
   cin >> precio;
   cout << "Unidades: ";
