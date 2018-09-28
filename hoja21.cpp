@@ -4,16 +4,10 @@ using namespace std;
 
  int main() {
    //Declaramos las variables.
-  double precio;
   int unidades;
   char descuento;
-  string nombrecliente;
-  string NIF;
-  string direccion;
-  string nombreproducto;
-  double total;
-  double descuentonumerico;
-  double IVA;
+  string nombrecliente, NIF, direccion, nombreproducto;
+  double total, descuentonumerico, IVA, precio;
 
   //El usuario introduce los valores para cada cosa
   cout << "Precio del producto: ";
@@ -48,7 +42,7 @@ using namespace std;
   cout << "\n" << "DESCUENTO: " << "\n \t \t \t \t \t \t" << descuentonumerico;
   cout << "\n" << "TOTAL TRÁS DESCUENTO: " << "\n \t \t \t \t \t \t" << (total - descuentonumerico);
   cout << "\n" << "IVA APLICADO: " << "\n \t \t \t \t \t \t" << IVA;
-  cout << "\n" << "PRECIO FINAL: " << "\n \t \t \t \t \t \t" << (total + descuento + IVA);
+  cout << "\n" << "PRECIO FINAL: " << "\n \t \t \t \t \t \t" << (total - descuentonumerico + IVA);
 
   return 0;
 }
