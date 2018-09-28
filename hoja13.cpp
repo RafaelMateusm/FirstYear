@@ -2,40 +2,40 @@
 using namespace std;
 
 int main(int argc, char const *argv[]) {
-	/*Este programa tiene como finalidad ordenar los números de menor a mayor.*/
-	//Declaramos las variables que son números enteros.
+	/*Este programa tiene como finalidad ordenar los nï¿½meros de menor a mayor.*/
+	//Declaramos las variables que son nï¿½meros enteros.
   int a;
   int b;
   int c;
-	//El usuario introduce los valores de cada número
-  cout << "Introduce el primer número: ";
+	//El usuario introduce los valores de cada nï¿½mero
+  cout << "Introduce el primer nï¿½mero: ";
   cin >> a;
-  cout << "Introduce el segundo número: ";
+  cout << "Introduce el segundo nï¿½mero: ";
   cin >> b;
-  cout << "Introduce el tercer número: ";
+  cout << "Introduce el tercer nï¿½mero: ";
   cin >> c;
 
-  //Comparamos los valores de cada número para imprimir los números de menor a mayor
+  //Comparamos los valores de cada nï¿½mero para imprimir los nï¿½meros de menor a mayor
 
   if( a < b && a < c){ //EN CASO DE QUE A SEA EL MAYOR DE TODOS
     if(b < c){
-      cout << a << "," << b << "," << c;
+      cout << a << "," << b << "," << c; //EN EL CASO DE QUE B SEA MENOR QUE C
     }else{
-      cout << a << "," << c << "," << b;
+      cout << a << "," << c << "," << b; //EN EL CASO DE QUE C SEA MENOR QUE B
     }
   }
   if( b < a && b < c){ //EN EL CASO DE QUE B SEA EL MAYOR DE TODOS
     if(a < c){
-      cout << b << "," << a << "," << c;
+      cout << b << "," << a << "," << c; //EN EL CASO DE QUE A SEA MENOR QUE C
     }else{
-      cout << b << "," << c << "," << a;
+      cout << b << "," << c << "," << a; //EN EL CASO DE QUE C SEA MENOR QUE A
     }
   }
   if( c < a && c < b){ //EN EL CASO DE QUE C SEA EL MAYOR DE TODOS
     if(b < a){
-      cout << c << "," << b << "," << a;
+      cout << c << "," << b << "," << a; //EN EL CASO DE QUE B SEA MENOR QUE A
     }else{
-      cout << c << "," << a << "," << b;
+      cout << c << "," << a << "," << b; //EN EL CASO DE QUE A SEA MENOR QUE B
     }
   }
   return 0;
