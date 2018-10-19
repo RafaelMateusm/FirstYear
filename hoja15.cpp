@@ -5,13 +5,7 @@ using namespace std;
 int main(){
 
   //Declaramos las variables.
-  double notaprimercuatrimestre;
-  double notaexamenfinal;
-  double notapracticas;
-  double actividadadicional;
-  double total;
-  double notapractica2;
-  double notapractica1;
+  double notaprimercuatrimestre, notaexamenfinal, notapracticas, actividadadicional, total, notapractica1, notapractica2;
 
   //Nota del primer cuatrimestre vale 15%.
   cout << "Introduzca la nota del primer examen: ";
